@@ -19,7 +19,7 @@ jobs:
       - name: Build
         env:
           AIO_RUNTIME_NAMESPACE: ${{ secrets.AIO_RUNTIME_NAMESPACE }}
-        uses: adobe/aio-apps-action@2.0.1
+        uses: adobe/aio-apps-action@3.3.0
         with:
           os: ${{ matrix.os }}
           command: build
