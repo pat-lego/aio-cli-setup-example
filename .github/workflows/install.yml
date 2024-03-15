@@ -6,7 +6,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup CLI
-        uses: adobe/aio-cli-setup-action@1.3.0
+        uses: adobe/aio-cli-setup-action@1.1.0
         with:
           os: ubuntu-latest
           version: 10.0.0
