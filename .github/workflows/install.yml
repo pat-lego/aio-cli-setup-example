@@ -10,5 +10,10 @@ jobs:
         with:
           os: ubuntu-latest
           version: 10.0.0
+      - name: Setup CLI
+        uses: adobe/aio-cli-setup-action@1.1.0
+        with:
+          os: ubuntu-latest
+          version: 9.0.0
       - name: AIO Version Lib
         run: aio -v
