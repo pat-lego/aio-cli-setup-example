@@ -13,7 +13,7 @@ jobs:
         uses: adobe/aio-cli-setup-action@1.3.0
         with:
           os: ubuntu-latest
-          version: 10.0.0
+          version: 9.4.1
       - name: AIO Version Lib
         run: aio -v
       - name: Build
